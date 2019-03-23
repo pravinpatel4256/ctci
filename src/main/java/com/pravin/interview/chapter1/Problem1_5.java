@@ -12,16 +12,29 @@ public class Problem1_5 {
             return false;
         }
 
-        Map<Character, Integer> map = s1.chars().boxed().collect(
-                Collectors.toMap( k -> (char) k.intValue(), v -> 1, Integer::sum));
+            Map<Character, Integer> map = s1.chars().boxed().map(k -> (char)k.intValue()).collect(
+                Collectors.toMap( k -> k, v -> 1, Integer::sum));
 
         System.out.println(map);
 
-        s2.chars().boxed().map(k -> (char) k.intValue()).filter(map::containsKey).forEach(ch -> map.put(ch, map.get(ch) - 1));
+
+        Map<Character, Integer> map2 = s2.chars().boxed().map(k -> (char)k.intValue()).collect(
+                Collectors.toMap( k -> k, v -> 1, Integer::sum));
+
+        System.out.println(map2);
+
+        s2.chars().boxed().map(k -> (char) k.intValue()).forEach(ch -> map.merge(ch, 1, (a, b)-> Integer.sum(a, -1*b)));
 
         System.out.println(map);
 
-        return map.values().stream().mapToInt(i -> i).sum() < 2;
+        int sum = map.values().stream().mapToInt(Math::abs).sum();
+
+        if (sum == 2) {
+
+        }
+
+        System.out.println(sum);
+        return sum < 2;
     }
 
     public static void main(String[] args) {
@@ -30,10 +43,9 @@ public class Problem1_5 {
         String s2 = "ple";
         System.out.println(isOneAway(s1,s2));
         System.out.println(isOneAway("pales","pale"));
-
         System.out.println(isOneAway("pale","bale"));
-
         System.out.println(isOneAway("pale","bake"));
+        System.out.println(isOneAway("aaaa","aaaa aaabv"));
 
     }
 }
