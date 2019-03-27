@@ -72,10 +72,11 @@ public class ArrayManipulation {
         }
 
         //  Arrays.stream(a).mapToObj(x ->x+" ").forEach(System.out::print);
-        OptionalInt op = Arrays.stream(a).max();
-        if (op.isPresent()) {
-            return op.getAsInt();
-        }
-        return 0;
+//        OptionalInt op = Arrays.stream(a).max();
+//        if (op.isPresent()) {
+//            return op.getAsInt();
+//        }
+//        return 0;
+        return  Arrays.stream(a).max().getAsInt();
     }
 }
