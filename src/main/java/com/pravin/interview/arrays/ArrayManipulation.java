@@ -78,5 +78,6 @@ public class ArrayManipulation {
 //        }
 //        return 0;
         return  Arrays.stream(a).max().getAsInt();
+
     }
 }
