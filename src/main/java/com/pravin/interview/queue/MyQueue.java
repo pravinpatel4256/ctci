@@ -62,6 +62,18 @@ public class MyQueue<T> {
         return data;
     }
 
+    public boolean isEmpty(){
+        return first == null;
+    }
+
+
+    public T peek(){
+        if (first == null) {
+            throw new RuntimeException();
+        }
+        return first.data;
+    }
+
     @Override
     public String toString() {
         return "MyQueue{" +
@@ -76,7 +88,30 @@ public class MyQueue<T> {
 //        myQueue.add(10);
   //      myQueue.add(10);
         System.out.println(myQueue);
+        System.out.println(myQueue.peek());
+        System.out.println(myQueue.isEmpty());
         myQueue.remove();
         System.out.println(myQueue);
+
+        int[] a = new int[2];
+
+        a[0] = 1;
+        a[1] = 3;
+
+        int [] ar = new int[20];
+
+        System.arraycopy(a,0, ar, 0, a.length );
+
+        for (int d: ar) {
+            System.out.println(d);
+        }
+
+        a = ar;
+
+        ar[4] = 9;
+
+        for (int d: a) {
+            System.out.println(d);
+        }
     }
 }
