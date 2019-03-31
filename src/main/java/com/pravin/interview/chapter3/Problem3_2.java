@@ -1,6 +1,6 @@
-package com.pravin.interview.stacks;
+package com.pravin.interview.chapter3;
 
-public class StackWithMin {
+public class Problem3_2 {
 
 
     private static class MinStack{
@@ -28,7 +28,7 @@ public class StackWithMin {
 
     @Override
     public String toString() {
-        return "StackWithMin{" +
+        return "Problem3_2{" +
                 "top=" + top +
                 '}';
     }
@@ -78,7 +78,7 @@ public class StackWithMin {
     }
 
     public static void main(String[] args) {
-        StackWithMin stackWithMin = new StackWithMin();
+        Problem3_2 stackWithMin = new Problem3_2();
         stackWithMin.push(10);
         System.out.println(stackWithMin);
         System.out.println(stackWithMin.min());

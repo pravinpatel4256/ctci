@@ -1,16 +1,18 @@
-package com.pravin.interview.stacks;
+package com.pravin.interview.chapter3;
+
+import com.pravin.interview.stacks.Stack;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SetOfStacks {
+public class Problem3_3 {
 
     private List<Stack<Integer>>  stacks = new ArrayList<>();
     private int stackSize = 3;
 
     @Override
     public String toString() {
-        return "SetOfStacks{" +
+        return "Problem3_3{" +
                 "stacks=" + stacks +
                 ", stackSize=" + stackSize +
                 '}';
@@ -53,7 +55,7 @@ public class SetOfStacks {
     }
 
     public static void main(String[] args) {
-        SetOfStacks setOfStacks = new SetOfStacks();
+        Problem3_3 setOfStacks = new Problem3_3();
         setOfStacks.push(1);
         setOfStacks.push(1);
         setOfStacks.push(1);

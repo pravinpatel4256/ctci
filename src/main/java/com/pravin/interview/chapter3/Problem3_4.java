@@ -1,9 +1,9 @@
-package com.pravin.interview.queue;
+package com.pravin.interview.chapter3;
 
 
 import java.util.Stack;
 
-public class QueueByStack {
+public class Problem3_4 {
 
     private Stack<Integer> ns = new Stack<>();
     private Stack<Integer> os = new Stack<>();
@@ -11,7 +11,7 @@ public class QueueByStack {
 
     @Override
     public String toString() {
-        return "QueueByStack{" +
+        return "Problem3_4{" +
                 "ns=" + ns +
                 ", os=" + os +
                 '}';
@@ -52,7 +52,7 @@ public class QueueByStack {
 
     public static void main(String[] args) {
 
-        QueueByStack queue = new QueueByStack();
+        Problem3_4 queue = new Problem3_4();
         queue.add(10);
         queue.add(20);
         queue.add(30);
