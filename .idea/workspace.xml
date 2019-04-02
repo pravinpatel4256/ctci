@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/arrays/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/arrays/ArrayManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/queue/MyQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,15 +26,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/stacks/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -102,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+            <state relative-caret-position="405">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
@@ -115,6 +104,20 @@
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,6 +209,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/SortedStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -269,7 +275,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="creakingthecodinginterview" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +308,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pravin.interview.graph" />
       <recent name="com.pravin.interview.stacks" />
       <recent name="com.pravin.interview.chapter3" />
       <recent name="com.pravin.interview.chapter3.stacks" />
@@ -451,12 +458,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553352660553</updated>
       <workItem from="1553352664804" duration="25791000" />
-      <workItem from="1553737040072" duration="20827000" />
+      <workItem from="1553737040072" duration="24319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46618000" />
+    <option name="totallyTimeSpent" value="50110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,7 +488,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32825485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -762,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+        <state relative-caret-position="405">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
@@ -772,6 +779,18 @@
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
