@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/SortedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravin/interview/queue/QueueByStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravin/interview/stacks/SetOfStacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravin/interview/stacks/StackWithMin$MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravin/interview/stacks/StackWithMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/arrays/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/arrays/ArrayManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/queue/MyQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter2/Problem1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,10 +67,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="565" column="29" lean-forward="true" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+              <folding>
+                <element signature="e#8008#8009#0" expanded="true" />
+                <element signature="e#8036#8037#0" expanded="true" />
+                <element signature="e#23214#23215#0" expanded="true" />
+                <element signature="e#23241#23242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="315">
               <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,6 +98,33 @@
                 <element signature="e#450#451#0" expanded="true" />
                 <element signature="e#487#488#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -120,24 +147,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter1/Problem1_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter1/Problem1_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -196,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/SortedStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java" />
       </list>
     </option>
   </component>
@@ -312,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem3_5">
+  <component name="RunManager" selected="Application.Problem6">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -347,13 +357,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter3.Problem3_4" />
+    <configuration name="Problem3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter3.Problem3_5" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.stacks.*" />
+          <option name="PATTERN" value="com.pravin.interview.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,8 +371,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter3.Problem3_5" />
+    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter3.Problem6" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -422,11 +432,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem6" />
         <item itemvalue="Application.Problem3_5" />
         <item itemvalue="Application.SortedStack" />
         <item itemvalue="Application.Problem1_5" />
         <item itemvalue="Application.Problem1_3" />
-        <item itemvalue="Application.Problem3_4" />
       </list>
     </recent_temporary>
   </component>
@@ -441,12 +451,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553352660553</updated>
       <workItem from="1553352664804" duration="25791000" />
-      <workItem from="1553737040072" duration="18404000" />
+      <workItem from="1553737040072" duration="20827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44195000" />
+    <option name="totallyTimeSpent" value="46618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +486,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32963988" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32825485" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -573,13 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -721,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem3_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="315">
           <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -733,6 +736,42 @@
             <element signature="e#410#411#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
             <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="565" column="29" lean-forward="true" selection-start-line="565" selection-start-column="29" selection-end-line="565" selection-end-column="29" />
+          <folding>
+            <element signature="e#8008#8009#0" expanded="true" />
+            <element signature="e#8036#8037#0" expanded="true" />
+            <element signature="e#23214#23215#0" expanded="true" />
+            <element signature="e#23241#23242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter3/Problem6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>

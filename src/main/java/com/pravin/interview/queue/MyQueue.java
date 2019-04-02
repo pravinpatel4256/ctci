@@ -85,8 +85,8 @@ public class MyQueue<T> {
     public static void main(String[] args) {
         MyQueue<Integer>  myQueue = new MyQueue<>();
         myQueue.add(10);
-//        myQueue.add(10);
-  //      myQueue.add(10);
+//        myQueue.push(10);
+  //      myQueue.push(10);
         System.out.println(myQueue);
         System.out.println(myQueue.peek());
         System.out.println(myQueue.isEmpty());
