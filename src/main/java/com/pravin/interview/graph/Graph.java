@@ -1,6 +1,7 @@
 package com.pravin.interview.graph;
 
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 
@@ -9,6 +10,7 @@ Implementation of Depth first search.
  */
 public class Graph {
 
+    HashMap<Integer, Node> container = new HashMap<>();
     public static class Node {
 
         private int id;
@@ -27,8 +29,24 @@ public class Graph {
         }
 
 
+
+
     }
 
+    private Node getNode(int id){
+        if (container.containsKey(id)) {
+            return container.get(id);
+        }
+        Node src = new Node(id);
+        container.put(id, src);
+        return src;
+    }
+
+    public void addEdge(int s, int d){
+        Node src = getNode(s);
+        Node dest = getNode(d);
+        src.adjacent.add(dest);
+    }
 
     public boolean hasNodeDFS(int src, int dest){
         Node s = new Node(src);
@@ -57,8 +75,8 @@ public class Graph {
     }
 
     public boolean hasNodeBFS(int src, int dest){
-        Node s = new Node(src);
-        Node d = new Node(dest);
+        Node s = getNode(src);
+        Node d = getNode(dest);
         return hasNodeBFS(s,d);
     }
 
@@ -67,12 +85,13 @@ public class Graph {
         toVisit.add(source);
         HashSet<Integer> visited = new HashSet<>();
         while (!toVisit.isEmpty()) {
+            System.out.println("Searching...");
             Node node = toVisit.remove();
             if (node == dest) {
                 return true;
             }
             visited.add(source.id);
-            for (Node child: source.adjacent) {
+            for (Node child: node.adjacent) {
                 if (!visited.contains(child.id)) {
                     toVisit.add(child);
                 }
@@ -82,5 +101,20 @@ public class Graph {
         return false;
     }
 
+    public static void main(String[] args) {
+        Graph graph = new Graph();
+        graph.addEdge(0, 1);
+        graph.addEdge(0, 3);
+        graph.addEdge(0, 2);
+        graph.addEdge(2, 4);
+        graph.addEdge(3, 5);
+        graph.addEdge(5, 6);
+        graph.addEdge(4, 7);
+        graph.addEdge(7, 9);
+        graph.addEdge(9, 11);
+
+        System.out.println( graph.hasNodeBFS(0, 9));
+
+    }
 
 }
