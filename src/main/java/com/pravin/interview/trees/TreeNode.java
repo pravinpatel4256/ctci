@@ -2,7 +2,7 @@ package com.pravin.interview.trees;
 
 public class TreeNode {
 
-    private int data;
+    public int data;
     public TreeNode left;
     public TreeNode right;
 
@@ -12,10 +12,6 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        return "TreeNode{" +
-                "data=" + data +
-                ", left=" + left +
-                ", right=" + right +
-                '}';
+        return ""+data;
     }
 }

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class Problem1_6 {
 
 
-    static String copress(String s1){
+    static String compress(String s1){
 
         Map<Character, Integer> map = s1.chars().boxed().collect(Collectors.toMap(
                 k-> (char) k.intValue(), v->1, Integer::sum
@@ -22,6 +22,6 @@ public class Problem1_6 {
 
     public static void main(String[] args) {
 
-        System.out.println(copress("prrraaaavvvin"));
+        System.out.println(compress("prrraaaavvvin"));
     }
 }
