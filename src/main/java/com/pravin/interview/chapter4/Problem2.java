@@ -9,7 +9,7 @@ import java.util.Queue;
 public class Problem2 {
 
 
-    public TreeNode createBinaryTree(int [] arr){
+    public TreeNode     createBinaryTree(int [] arr){
 
          return createBinaryTree(arr, 0, arr.length -1);
     }
