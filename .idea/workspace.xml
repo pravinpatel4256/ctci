@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Tower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,27 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/SortedArraySerachMagicIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/PowerSet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,14 +76,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -154,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter1/Problem1_7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/sorts/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/arrays/ArrayManipulation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter1/Problem1_5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter2/Problem1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/queue/MyQueue.java" />
@@ -205,6 +202,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Tower.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/PermutaionWithoutDups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem7.java" />
       </list>
     </option>
   </component>
@@ -277,7 +277,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="chapter8" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem6" type="1a9f42e2:ClassTreeNode" />
+              <item name="Problem7" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="creakingthecodinginterview" type="b2602c69:ProjectViewProjectNode" />
@@ -373,23 +373,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem6">
+  <component name="RunManager" selected="Application.Problem7">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter8.Problem2" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -450,6 +436,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter8.Problem7" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -483,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem7" />
         <item itemvalue="Application.Problem6" />
         <item itemvalue="Application.Problem5" />
         <item itemvalue="Application.Problem4" />
         <item itemvalue="Application.Problem3" />
-        <item itemvalue="Application.Problem2" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +504,7 @@
       <workItem from="1553352664804" duration="25791000" />
       <workItem from="1553737040072" duration="38141000" />
       <workItem from="1554348500645" duration="3495000" />
-      <workItem from="1554577045184" duration="21375000" />
+      <workItem from="1554577045184" duration="25881000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -524,7 +524,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88802000" />
+    <option name="totallyTimeSpent" value="93308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +539,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22246066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -549,7 +549,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -768,6 +768,36 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem7.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem6.java</url>
           <line>9</line>
@@ -780,14 +810,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/sorts.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter1/Problem1_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2385">
@@ -1227,11 +1249,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/permutationsWithoutDups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/Problem7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
