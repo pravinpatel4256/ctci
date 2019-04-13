@@ -3,7 +3,7 @@ package com.pravin.interview.chapter8;
 import java.util.ArrayList;
 import java.util.List;
 
-public class permutationsWithoutDups {
+public class PermutationsWithoutDups {
 
 
     public List<String> permutations1(String str){
