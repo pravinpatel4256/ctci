@@ -35,4 +35,12 @@ public class Multiply {
         memo[smaller] = side1 + side2;
         return memo[smaller];
     }
+
+
+    public int simpleMultiply(int x, int y) {
+        if (y == 0) return 0;
+        if (y <= 0) return -simpleMultiply(x, -y);
+        return x + simpleMultiply(x, y - 1);
+
+    }
 }

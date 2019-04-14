@@ -8,5 +8,6 @@ public class Problem5 {
 
         System.out.println(multiply.multiply(115, 100));
 
+        System.out.println(multiply.simpleMultiply(-50, 5));
     }
 }
