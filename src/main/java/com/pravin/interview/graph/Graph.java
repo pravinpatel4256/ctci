@@ -11,6 +11,7 @@ Implementation of Depth first search.
 public class Graph {
 
     HashMap<Integer, Node> container = new HashMap<>();
+
     public static class Node {
 
         private int id;
@@ -27,10 +28,6 @@ public class Graph {
                     ", adjacent=" + adjacent +
                     '}';
         }
-
-
-
-
     }
 
     private Node getNode(int id){
@@ -49,28 +46,29 @@ public class Graph {
     }
 
     public boolean hasNodeDFS(int src, int dest){
-        Node s = new Node(src);
-        Node d = new Node(dest);
+        Node s = getNode(src);
+        Node d = getNode(dest);
         HashSet<Integer> visited = new HashSet<>();
         return hasNodeDFS(s, d, visited);
     }
 
     private boolean hasNodeDFS(Node s, Node d, HashSet<Integer> visited) {
 
-        if (visited.contains(s.id)) {
-            return false;
-        }
+        System.out.println("Searching DFS---"+s.id);
 
         if (s.id == d.id) {
-           return true;
+            return true;
         }
+
         visited.add(s.id);
 
         for(Node child: s.adjacent) {
-             if (hasNodeDFS(child, d, visited)) {
+
+             if (!visited.contains(child.id) && hasNodeDFS(child, d, visited)) {
                  return true;
              }
         }
+        System.out.println("Searching END---");
         return false;
     }
 
@@ -85,12 +83,13 @@ public class Graph {
         toVisit.add(source);
         HashSet<Integer> visited = new HashSet<>();
         while (!toVisit.isEmpty()) {
-            System.out.println("Searching...");
+
             Node node = toVisit.remove();
+            System.out.println("Searching..."+ node.id);
             if (node == dest) {
                 return true;
             }
-            visited.add(source.id);
+            visited.add(node.id);
             for (Node child: node.adjacent) {
                 if (!visited.contains(child.id)) {
                     toVisit.add(child);
@@ -114,6 +113,7 @@ public class Graph {
         graph.addEdge(9, 11);
 
         System.out.println( graph.hasNodeBFS(0, 9));
+        System.out.println( graph.hasNodeDFS(0, 9));
 
     }
 

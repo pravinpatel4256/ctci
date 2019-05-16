@@ -30,7 +30,7 @@ public class Problem4 {
         int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
         Problem4 problem4
                 = new Problem4();
-        System.out.println(problem4.getHeight(problem2.createBinaryTree(a)));
+        System.out.println(problem4.getHeight(problem2.createBST(a)));
 
     }
 }

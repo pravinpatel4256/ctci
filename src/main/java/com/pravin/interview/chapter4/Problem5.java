@@ -57,24 +57,24 @@ public class Problem5 {
     public static void main(String[] args) {
         Problem2 problem2 = new Problem2();
         int[] a = {1,1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-        // System.out.println(problem2.createBinaryTree(a));
+        // System.out.println(problem2.createBST(a));
 
 
-        boolean isValid = checkBST(problem2.createBinaryTree(a));
+        boolean isValid = checkBST(problem2.createBST(a));
         System.out.println(isValid);
 
-        System.out.println(validateBST(problem2.createBinaryTree(a)));
+        System.out.println(validateBST(problem2.createBST(a)));
 
         int[] a1 = {1, 12, 3, 14, 15, 16, 17, 8, 9, 10, 11, 12, 13, 14};
-        // System.out.println(problem2.createBinaryTree(a));
+        // System.out.println(problem2.createBST(a));
 
 
-        boolean isValid2 = checkBST(problem2.createBinaryTree(a1));
+        boolean isValid2 = checkBST(problem2.createBST(a1));
 
         System.out.println(isValid2);
 
-        System.out.println(validateBST(problem2.createBinaryTree(a1)));
-        // printByLevel(problem2.createBinaryTree(a));
+        System.out.println(validateBST(problem2.createBST(a1)));
+        // printByLevel(problem2.createBST(a));
     }
 
 

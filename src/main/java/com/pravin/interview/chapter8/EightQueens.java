@@ -14,6 +14,7 @@ public class EightQueens {
         Integer[] columns = new Integer[boardSize];
 
         placeQueensR(0, columns, result );
+        System.out.println(result.size());
         return result;
     }
 

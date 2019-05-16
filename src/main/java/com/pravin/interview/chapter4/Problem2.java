@@ -2,54 +2,50 @@ package com.pravin.interview.chapter4;
 
 import com.pravin.interview.trees.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Problem2 {
 
 
-    public TreeNode     createBinaryTree(int [] arr){
+    public TreeNode createBST(int[] arr) {
 
-         return createBinaryTree(arr, 0, arr.length -1);
+        return createBST(arr, 0, arr.length - 1);
     }
 
-    private TreeNode createBinaryTree(int[] arr, int start, int end) {
+    private TreeNode createBST(int[] arr, int start, int end) {
 
-      //  System.out.println(start + " to " + end);
-        if (end < start){
+        //  System.out.println(start + " to " + end);
+        if (end < start) {
             return null;
         }
-        int mid = (start + end)/2;
+        int mid = (start + end) / 2;
         TreeNode root = new TreeNode(arr[mid]);
-        root.left = createBinaryTree(arr, start, mid-1);
-        root.right = createBinaryTree(arr, mid + 1, end);
+        root.left = createBST(arr, start, mid - 1);
+        root.right = createBST(arr, mid + 1, end);
         return root;
     }
 
     public static void main(String[] args) {
         Problem2 problem2 = new Problem2();
-        int a[] = {1, 2,3 ,4 ,5 ,6, 7, 8, 9,10,11,12, 13, 14};
-        System.out.println(problem2.createBinaryTree(a));
+        int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+        System.out.println(problem2.createBST(a));
 
 
-        preOrder(problem2.createBinaryTree(a));
+        preOrder(problem2.createBST(a));
 
-       // printByLevel(problem2.createBinaryTree(a));
+        // printByLevel(problem2.createBST(a));
     }
 
 
-    public static void inOrderDisplay(TreeNode node){
-         if(null != node){
-             inOrderDisplay(node.left);
-             System.out.println(node.data);
-             inOrderDisplay(node.right);
-         }
+    public static void inOrderDisplay(TreeNode node) {
+        if (null != node) {
+            inOrderDisplay(node.left);
+            System.out.println(node.data);
+            inOrderDisplay(node.right);
+        }
     }
 
 
-    public static void preOrder(TreeNode node){
-        if(null != node){
+    public static void preOrder(TreeNode node) {
+        if (null != node) {
             System.out.println(node.data);
             preOrder(node.left);
             preOrder(node.right);

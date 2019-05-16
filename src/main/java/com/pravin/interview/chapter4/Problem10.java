@@ -78,10 +78,10 @@ public class Problem10 {
         t2.right = new TreeNode(4);
 
 
-    // System.out.println(problem2.createBinaryTree(a));
+    // System.out.println(problem2.createBST(a));
         Problem10 problem10 = new Problem10();
-        //TreeNode t1 = problem2.createBinaryTree(a);
-//        TreeNode t2 = problem2.createBinaryTree(a2);
+        //TreeNode t1 = problem2.createBST(a);
+//        TreeNode t2 = problem2.createBST(a2);
 
         Problem2.preOrder(t1);
         Problem2.preOrder(t2);

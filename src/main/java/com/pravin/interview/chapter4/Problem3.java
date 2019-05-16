@@ -18,7 +18,6 @@ public class Problem3 {
 
         toVisit.add(treeNode);
 
-        LinkedList<Integer> root = new LinkedList<>();
 
         while(!toVisit.isEmpty()){
             resultList.add(toVisit);

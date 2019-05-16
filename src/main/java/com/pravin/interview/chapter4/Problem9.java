@@ -38,22 +38,25 @@ public class Problem9 {
 
     private void weaveList(LinkedList<Integer> first, LinkedList<Integer> second, ArrayList<LinkedList<Integer>> weaved, LinkedList<Integer> prefix) {
 
+        System.out.println("first = [" + first + "], second = [" + second + "], weaved = [" + weaved + "], prefix = [" + prefix + "]");
+
         if (first.size() == 0 || second.size() == 0) {
-            LinkedList<Integer> results = (LinkedList<Integer>) prefix.clone();
-            results.addAll(first);
-            results.addAll(second);
-            weaved.add(results);
+            LinkedList<Integer> result = (LinkedList<Integer>) prefix.clone();
+            result.addAll(first);
+            result.addAll(second);
+            weaved.add(result);
+            System.out.println("----");
             return;
         }
 
         int headFirst = first.removeFirst();
-        prefix.add(headFirst);
+        prefix.addLast(headFirst);
         weaveList(first, second, weaved, prefix);
         prefix.removeLast();
         first.addFirst(headFirst);
 
         int headSecond = second.removeFirst();
-        prefix.add(headSecond);
+        prefix.addLast(headSecond);
         weaveList(first, second, weaved, prefix);
         prefix.removeLast();
         second.addFirst(headSecond);
@@ -65,14 +68,14 @@ public class Problem9 {
     public static void main(String[] args) {
         Problem2 problem2 = new Problem2();
         Problem9  problem = new Problem9();
-        int a[] = {1, 2,3 ,4 ,5 ,6, 7, 8, 9,10,11,12, 13, 14};
-        //System.out.println(problem2.createBinaryTree(a));
+        int a[] = {1, 2,3,4};
+        //System.out.println(problem2.createBST(a));
 
 
-        ArrayList<LinkedList<Integer>> linkedLists =  problem.allSequences(problem2.createBinaryTree(a));
+        ArrayList<LinkedList<Integer>> linkedLists =  problem.allSequences(problem2.createBST(a));
 
         System.out.println("Final Result::: ==>");
         System.out.println(linkedLists);
-        // printByLevel(problem2.createBinaryTree(a));
+        // printByLevel(problem2.createBST(a));
     }
 }

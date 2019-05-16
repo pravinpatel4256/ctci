@@ -13,7 +13,10 @@ public class Conis {
         if(index >= demos.length - 1){
              return 1;
          }
+        if (map[amount][index] > 0){
+            return map [amount][index];
 
+        }
         int ways = 0;
         int demosAmount = demos[index];
 
