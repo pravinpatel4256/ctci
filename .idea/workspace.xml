@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/hard/Problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/hard/Problem7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/DivingBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/PatternMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/PatternMatcher2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/Problem11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/SubSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/moderate/SubSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/TripleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/chapter8/TripleSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pravin/interview/chapter8/TripleSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pravin/interview/chapter8/TripleSteps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/hard/Problem7.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="93" column="33" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="33" />
+              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -86,7 +75,7 @@
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -253,23 +242,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="creakingthecodinginterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="creaking-the-coding-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="creakingthecodinginterview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="creaking-the-coding-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,7 +433,7 @@
       <workItem from="1555283751473" duration="48372000" />
       <workItem from="1557802293452" duration="2922000" />
       <workItem from="1558161139040" duration="499000" />
-      <workItem from="1558214102133" duration="15793000" />
+      <workItem from="1558214102133" duration="16124000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -481,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178218000" />
+    <option name="totallyTimeSpent" value="178549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +468,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,13 +478,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32963988" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32777777" />
@@ -1543,14 +1515,14 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pravin/interview/hard/Problem7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="33" />
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
         </state>
       </provider>
     </entry>
