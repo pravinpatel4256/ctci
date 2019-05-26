@@ -1,2 +1,8 @@
+/target/*
+/.idea/*
+/creaking-the-coding-interview.iml
+/.gitignore
 target/*
 .idea/*
+creaking-the-coding-interview.iml
+.gitignore
