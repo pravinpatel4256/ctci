@@ -56,8 +56,6 @@ public class KthToLast {
         KthToLast obj = new KthToLast();
         int size = obj.printKthToLast(node, 1);
         Node kth = obj.kthFromLast(node, 2);
-        System.out.println(size);
-        System.out.println(kth);
 
     }
 }
