@@ -2,8 +2,6 @@ package com.pravin.interview.ctci.chapter2;
 
 import com.pravin.interview.ctci.linkedlist.Node;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class KthToLast {
 
     int printKthToLast(Node head, int k){
@@ -30,7 +28,6 @@ public class KthToLast {
     }
 
     Node kthToLast(Node head, int k, Index index){
-
         if (head == null) {
             return null;
         }
@@ -42,8 +39,20 @@ public class KthToLast {
         return node;
     }
 
+    Node kthToLastItr(Node head, int k){
+        Node p1 = head;
+        Node p2 = head;
 
+        for (int i = 0; i < k; i++) {
+            p1 = p1.next;
+        }
 
+        while(p1 != null ) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+        return p2;
+    }
 
     public static void main(String[] args) {
         Node node = new Node(10);
@@ -56,6 +65,8 @@ public class KthToLast {
         KthToLast obj = new KthToLast();
         int size = obj.printKthToLast(node, 1);
         Node kth = obj.kthFromLast(node, 2);
+        kth = obj.kthToLastItr(node, 2);
+        System.out.println(kth);
 
     }
 }
