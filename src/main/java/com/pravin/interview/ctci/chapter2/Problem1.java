@@ -9,7 +9,6 @@ public class Problem1 {
 
 
     Node removeDuplicates(Node head) {
-        Integer i = 1;
         Set<Integer> memo = new HashSet<>();
         memo.add(head.data);
         while (head.next != null) {
@@ -24,17 +23,17 @@ public class Problem1 {
     }
 
 
-    void removeDuplicatesWithPrevious(Node head) {
+    void removeDuplicatesWithPrevious(Node current) {
         Node previous = null;
         Set<Integer> memo = new HashSet<>();
-        while (head != null) {
-            if (memo.contains(head.data)) {
-                previous.next = head.next;
+        while (current != null) {
+            if (memo.contains(current.data)) {
+                previous.next = current.next;
             } else {
-                memo.add(head.data);
-                previous = head;
+                memo.add(current.data);
+                previous = current;
             }
-            head = head.next;
+            current = current.next;
         }
     }
 
@@ -56,9 +55,8 @@ public class Problem1 {
         }
     }
 
-
     public static void main(String[] args) {
-        Node node = new Node(1);
+        final Node node = new Node(1);
         node.appendNodeToTail(2);
         node.appendNodeToTail(2);
         node.appendNodeToTail(3);
