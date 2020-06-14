@@ -65,8 +65,6 @@ public class Palindrome {
         node.appendNodeToTail(2);
         node.appendNodeToTail(3);
         node.appendNodeToTail(2);
-        node.appendNodeToTail(2);
-        node.appendNodeToTail(2);
         node.appendNodeToTail(1);
         Palindrome palindrome = new Palindrome();
         boolean isPlain = palindrome.isPalindrome(node);
