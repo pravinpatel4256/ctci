@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="Adding new problem11!!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/ZeroMatrix.java" afterDir="false" />
+    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="Adding solution for ZeroMatrix !!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +30,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="201" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -41,6 +56,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pravin &lt;pravin.patel4592@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="2020" />
@@ -63,6 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/pravin/interview" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../coding-practice" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -100,20 +121,62 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZeroMatrix">
+  <component name="RunManager" selected="Application.LLSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.leetcode.medium.AddTwoNumbers" />
+    <configuration name="DeleteMiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.DeleteMiddleNode" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.leetcode.medium.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.util.LL" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ctci.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.LLSum" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.LinkedListPartition" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,54 +185,12 @@
       </method>
     </configuration>
     <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.chapter8.Problem1" />
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.Problem1" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.hard.Problem7" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter1.RotateArray" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter1.ZeroMatrix" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter1.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,10 +231,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroMatrix" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.Problem7" />
+        <item itemvalue="Application.LLSum" />
+        <item itemvalue="Application.LinkedListPartition" />
+        <item itemvalue="Application.LL" />
+        <item itemvalue="Application.DeleteMiddleNode" />
         <item itemvalue="Application.Problem1" />
       </list>
     </recent_temporary>
@@ -242,7 +263,8 @@
       <workItem from="1591251556558" duration="3408000" />
       <workItem from="1591340767159" duration="13000" />
       <workItem from="1591340887928" duration="308000" />
-      <workItem from="1591497073909" duration="15634000" />
+      <workItem from="1591497073909" duration="17668000" />
+      <workItem from="1591573829103" duration="47965000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -258,7 +280,77 @@
       <option name="project" value="LOCAL" />
       <updated>1554604614433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding solution for ZeroMatrix !!">
+      <created>1591515852748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591515852748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding solution for StringRotation problem">
+      <created>1591516595303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591516595303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding solution for ZeroMatrix !!">
+      <created>1591575768131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591575768131</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Addint KthToLast Element.">
+      <created>1591688975897</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688975897</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding Node class">
+      <created>1591688999306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591688999306</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" KthToLast Element.">
+      <created>1591689286116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591689286116</updated>
+    </task>
+    <task id="LOCAL-00009" summary="KthToLast Element with iterative approach.">
+      <created>1591690526616</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591690526616</updated>
+    </task>
+    <task id="LOCAL-00010" summary="KthToLast Element of LL">
+      <created>1591730723297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591730723297</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Solution for LinkedList Partition">
+      <created>1591936647511</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591936647511</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add LinkedList">
+      <created>1592112693855</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592112693855</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -273,68 +365,101 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new changes!!" />
     <MESSAGE value="Adding new problem11!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new problem11!!" />
+    <MESSAGE value="Adding solution for StringRotation problem" />
+    <MESSAGE value="Addint KthToLast Element." />
+    <MESSAGE value="Adding Node class" />
+    <MESSAGE value=" KthToLast Element." />
+    <MESSAGE value="KthToLast Element with iterative approach." />
+    <MESSAGE value="KthToLast Element of LL" />
+    <MESSAGE value="Adding solution for ZeroMatrix !!" />
+    <MESSAGE value="Problem for LinkedListPartition" />
+    <MESSAGE value="Solution for LinkedList Partition" />
+    <MESSAGE value="Add LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LinkedList" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1591499329307">
+    <state x="845" y="382" key="#Notifications" timestamp="1591597093939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591499329307" />
+    <state x="845" y="382" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591597093939" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1591575170387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591575170387" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591340092930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591340092930" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1591499378840">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1592112692034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591499378840" />
-    <state width="407" height="466" key="DebuggerActiveHint" timestamp="1591505191201">
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112692034" />
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1591939388212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="407" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591505191201" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591939388212" />
+    <state x="184" y="67" key="DiffContextDialog" timestamp="1591730686858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="67" key="DiffContextDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591730686858" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591508937909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591508937909" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1591515764215">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1592112424338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591515764215" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1591515764215">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1592112424338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591515764215" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1591515764215">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1592112424338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591515764215" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1591515764215">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1592112424338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591515764215" />
-    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1591514891433">
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1592112419940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591514891433" />
-    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1591514891432">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112419940" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1592112419939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591514891432" />
-    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1591514891432">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112419939" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1592112419939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591514891432" />
-    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1591514891432">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112419939" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1592112419940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591514891432" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1591497104907">
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112419940" />
+    <state x="642" y="222" key="RollbackChangesDialog" timestamp="1591730645285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591497104907" />
+    <state x="642" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591730645285" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1592112698023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112698023" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591507493880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,10 +468,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591504083897" />
+    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591857296989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591857296989" />
+    <state x="690" y="267" key="extract.method.dialog" timestamp="1591937181735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="extract.method.dialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591937181735" />
     <state x="342" y="95" key="new project wizard" timestamp="1591341016352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="95" key="new project wizard/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591341016352" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1591857509106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591857509106" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -839,6 +976,106 @@
           <line>65</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
           <line>9</line>
@@ -863,10 +1100,21 @@
           </properties>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/StringRotation.java</url>
+          <line>12</line>
+          <properties class="com.pravin.interview.ctci.chapter1.StringRotation" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/creakingthecodinginterview$Problem1.ic" NAME="Problem1 Coverage Results" MODIFIED="1591685991244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.pravin.interview.ctci.chapter2.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/creakingthecodinginterview$Graph.ic" NAME="Graph Coverage Results" MODIFIED="1555885217763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pravin.interview.graph.*</FILTER>
     </SUITE>
