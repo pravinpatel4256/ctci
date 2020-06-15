@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="Adding solution for ZeroMatrix !!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/stacks/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LLSum">
+  <component name="RunManager" selected="Application.MyStack">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -184,13 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.Problem1" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.stacks.MyStack" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.LLSum" />
         <item itemvalue="Application.LinkedListPartition" />
         <item itemvalue="Application.LL" />
         <item itemvalue="Application.DeleteMiddleNode" />
-        <item itemvalue="Application.Problem1" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +265,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
+      <workItem from="1592180079211" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -375,6 +376,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new changes!!" />
@@ -396,10 +398,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="382" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591597093939" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1591575170387">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592180206704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591575170387" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592180206704" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591340092930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,22 +423,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591508937909" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1592112424338">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1592191149457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1592112424338">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592191149457" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1592191149457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1592112424338">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592191149457" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1592191149457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1592112424338">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592191149457" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1592191149457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112424338" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592191149457" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1592112419940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
