@@ -83,16 +83,18 @@ public class Problem3_2 {
         System.out.println(stackWithMin);
         System.out.println(stackWithMin.min());
 
-        stackWithMin.push(10);
-        stackWithMin.push(20);
-        stackWithMin.push(0);
         stackWithMin.push(30);
-        stackWithMin.push(0);
+        stackWithMin.push(2);
+        stackWithMin.push(2);
+        stackWithMin.push(3);
+        stackWithMin.push(1);
         System.out.println(stackWithMin);
         System.out.println(stackWithMin.min());
 
         stackWithMin.pop();
         stackWithMin.pop();
+        stackWithMin.pop();
+        System.out.println(stackWithMin);
         System.out.println(stackWithMin.min());
 
 
