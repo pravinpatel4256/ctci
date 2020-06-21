@@ -57,6 +57,21 @@ public class Stack<T> {
         return top.data;
     }
 
+    //Not working properly
+    public T removeBottom(){
+        StackNode<T> head = top;
+        StackNode previous = null;
+        while (top.next != null) {
+            previous = top;
+            top = top.next;
+        }
+        T  data = top.data ;
+        previous.next = previous.next.next;
+        //top = null;
+        top = head;
+        return data;
+    }
+
     public boolean isEmpty() {
         return top == null;
     }

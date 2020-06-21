@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/FixedMultiStack.java" afterDir="false" />
+    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="FixedMultiStack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/QueueWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/SetOfStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/ShortedStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/stacks/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/stacks/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,26 +92,26 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.pravin.interview.leetcode" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pravin.interview.ctci.chapter3.phase2" />
       <recent name="com.pravin.interview.moderate" />
       <recent name="com.pravin.interview.chapter10" />
       <recent name="com.pravin.interview.graph" />
       <recent name="com.pravin.interview.stacks" />
-      <recent name="com.pravin.interview.chapter3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pravin.interview.leetcode.medium" />
       <recent name="com.pravin.interview.moderate" />
       <recent name="com.pravin.interview.chapter1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FixedMultiStack">
+  <component name="RunManager" selected="Application.QueueWithStack">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -129,13 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LLSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.LLSum" />
+    <configuration name="Problem3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter3.Problem3_2" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter2.LinkedListPartition" />
+    <configuration name="QueueWithStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter3.phase2.QueueWithStack" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter3.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.queue.phase2.MyQueue" />
+    <configuration name="SetOfStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter3.phase2.SetOfStacks" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.queue.phase2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter3.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.stacks.MyStack" />
+    <configuration name="StackWithMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter3.phase2.StackWithMin" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.stacks.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter3.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueWithStack" />
+        <item itemvalue="Application.SetOfStacks" />
+        <item itemvalue="Application.StackWithMin" />
+        <item itemvalue="Application.Problem3_2" />
         <item itemvalue="Application.FixedMultiStack" />
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.LLSum" />
-        <item itemvalue="Application.LinkedListPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +255,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
-      <workItem from="1592180079211" duration="8701000" />
+      <workItem from="1592180079211" duration="23796000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -359,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592194341195</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="FixedMultiStack">
+      <created>1592283530254</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592283530254</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -401,96 +411,102 @@
     <MESSAGE value="Add LinkedList" />
     <MESSAGE value="My Stack" />
     <MESSAGE value="My Stack and My Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="My Stack and My Queue" />
+    <MESSAGE value="FixedMultiStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="FixedMultiStack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="382" key="#Notifications" timestamp="1591597093939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="382" key="#Notifications/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591597093939" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592281320524">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1592692879517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592281320524" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592692879517" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592194144367" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591340092930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591340092930" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1592194338253">
+    <state x="743" y="414" width="741" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592283514006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112692034" />
+    <state x="743" y="414" width="741" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283514006" />
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1592291109403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592291109403" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194338253" />
-    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1592282569802">
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1592692611791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592282569802" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592692611791" />
     <state x="184" y="67" key="DiffContextDialog" timestamp="1591730686858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="67" key="DiffContextDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591730686858" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591508937909">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592285754032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591508937909" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1592283441852">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1592716167904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283441852" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592716167904" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1592283441852">
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1592716167904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283441852" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592716167904" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1592283441852">
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1592716167904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283441852" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592716167904" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1592283441852">
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1592716167904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283441852" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592716167904" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1592283357082">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1592715764500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283357082" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1592283357082">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592715764500" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1592715764500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283357082" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1592283357082">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592715764500" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1592715764500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283357082" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1592283357082">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592715764500" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1592715764500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283357082" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592715764500" />
     <state x="642" y="222" key="RollbackChangesDialog" timestamp="1591730645285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591730645285" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1592194073485">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592291046136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592291046136" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592194073485" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1592194342207">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1592283556664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592112698023" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283556664" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194342207" />
-    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591507493880">
+    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592692775966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591507493880" />
-    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591504083897">
+    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592692775966" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592691990376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591504083897" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592691990376" />
     <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591857296989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1104,19 +1120,24 @@
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/FixedMultiStack.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>21</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/FixedMultiStack.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>29</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/FixedMultiStack.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>44</line>
           <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/stacks/Stack.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
