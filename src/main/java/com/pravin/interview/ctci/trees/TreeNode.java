@@ -12,6 +12,10 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        return ""+data;
+        return "TreeNode{" +
+                "data=" + data +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
     }
 }
