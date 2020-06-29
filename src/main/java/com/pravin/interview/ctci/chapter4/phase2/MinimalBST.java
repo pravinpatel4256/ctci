@@ -38,6 +38,5 @@ public class MinimalBST {
         MinimalBST minimalBST = new MinimalBST();
         TreeNode treeNode = minimalBST.minimalTree(a);
         minimalBST.printTree(treeNode);
-
     }
 }
