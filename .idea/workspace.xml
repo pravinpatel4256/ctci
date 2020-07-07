@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/ValidateBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckedBalanceTree">
+  <component name="RunManager" selected="Application.ValidateBST">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -149,20 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.graph.Graph" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter4.phase2.MinimalBST" />
       <module name="creaking-the-coding-interview" />
@@ -179,6 +165,20 @@
     </configuration>
     <configuration name="TreeToLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter4.phase2.TreeToLists" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter4.phase2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter4.phase2.ValidateBST" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -224,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.CheckedBalanceTree" />
         <item itemvalue="Application.TreeToLists" />
         <item itemvalue="Application.CreateBinaryTree" />
         <item itemvalue="Application.MinimalBST" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
-      <workItem from="1592180079211" duration="55138000" />
+      <workItem from="1592180079211" duration="60417000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -449,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594080764589</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Tree and Graph">
+      <created>1594092881214</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594092881214</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -535,10 +542,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594071517127" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594080763058">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594092879851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080763058" />
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594092879851" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194338253" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594080613612">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -552,42 +559,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594099486279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486279" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594099486278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486278" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594089475179">
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594099486278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475179" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486278" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594099486279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486279" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594099465569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594099465569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594099465569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594089475180">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594099465569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594089475180" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
     <state x="642" y="222" key="RollbackChangesDialog" timestamp="1592796227466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -597,10 +604,10 @@
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080375816" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592194073485" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594080767575">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594092886847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080767575" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594092886847" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194342207" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592692775966">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1275,6 +1282,24 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java</url>
           <line>35</line>
           <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/ValidateBST.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/ValidateBST.java</url>
+          <line>19</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/ValidateBST.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
