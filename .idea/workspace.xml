@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +258,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
-      <workItem from="1592180079211" duration="52317000" />
+      <workItem from="1592180079211" duration="53038000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594077026287</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Tree and Graph">
+      <created>1594080029633</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1594080029634</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,15 +528,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594071517127" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594077024537">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594080026180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077024537" />
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080026180" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194338253" />
-    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594073701466">
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594080418462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594073701466" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080418462" />
     <state x="184" y="67" key="DiffContextDialog" timestamp="1591730686858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -538,55 +545,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594077019792">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594080532008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019792" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532008" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594077019792">
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594080532008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019792" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532008" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594077019791">
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594080532008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019791" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532008" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594077019792">
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594080532008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019792" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532008" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594077019565">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594080532201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019565" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594077019565">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532201" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594080532200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019565" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594077019565">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532200" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594080532200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019565" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594077019565">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532200" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594080532200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077019565" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080532200" />
     <state x="642" y="222" key="RollbackChangesDialog" timestamp="1592796227466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592796227466" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1592291046136">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594080375816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592291046136" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080375816" />
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592194073485" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594077033105">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594080033974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594077033105" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080033974" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592194342207" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592692775966">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -596,10 +603,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592691990376" />
-    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591857296989">
+    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594080512164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591857296989" />
+    <state x="417" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080512164" />
     <state x="690" y="267" key="extract.method.dialog" timestamp="1591937181735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -624,97 +631,97 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/queue/MyQueue.java</url>
           <line>89</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/queue/MyQueue.java</url>
           <line>85</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_3.java</url>
           <line>69</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_3.java</url>
           <line>67</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_3.java</url>
           <line>64</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_3.java</url>
           <line>73</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_3.java</url>
           <line>76</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/Problem3_5.java</url>
           <line>31</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem5.java</url>
           <line>50</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem5.java</url>
           <line>52</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>76</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem11.java</url>
           <line>5</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem11.java</url>
           <line>18</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/SortedArraySerachMagicIndex.java</url>
           <line>32</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/SortedArraySerachMagicIndex.java</url>
           <line>20</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/SortedArraySerachMagicIndex.java</url>
           <line>8</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
           <line>20</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
           <line>11</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
           <line>16</line>
           <properties>
@@ -722,532 +729,542 @@
           </properties>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Tower.java</url>
           <line>22</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Tower.java</url>
           <line>36</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>17</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>20</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>25</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>24</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem7.java</url>
           <line>13</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem7.java</url>
           <line>17</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>80</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>84</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/PermutationsWithoutDups.java</url>
           <line>89</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Parentheses.java</url>
           <line>16</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Parentheses.java</url>
           <line>9</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Parentheses.java</url>
           <line>23</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Conis.java</url>
           <line>27</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Conis.java</url>
           <line>20</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem12.java</url>
           <line>10</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem12.java</url>
           <line>12</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>25</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>30</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>22</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>28</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>39</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/MergeSort.java</url>
           <line>52</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/MergeSort.java</url>
           <line>25</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/MergeSort.java</url>
           <line>20</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/QuickSort.java</url>
           <line>16</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/QuickSort.java</url>
           <line>40</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/QuickSort.java</url>
           <line>44</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/QuickSort.java</url>
           <line>43</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/sorts/QuickSort.java</url>
           <line>12</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SortedMerge.java</url>
           <line>15</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SortedMerge.java</url>
           <line>19</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SortedMerge.java</url>
           <line>12</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/Problem3.java</url>
           <line>14</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SearchRotatedArray.java</url>
           <line>11</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SearchRotatedArray.java</url>
           <line>10</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter10/SearchRotatedArray.java</url>
           <line>13</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/UniqueString.java</url>
           <line>24</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/UniqueString.java</url>
           <line>26</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/SetOfStacks.java</url>
           <line>75</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/SetOfStacks.java</url>
           <line>70</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/graph/Graph.java</url>
           <line>64</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/graph/Graph.java</url>
           <line>67</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/graph/Graph.java</url>
           <line>58</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/graph/Graph.java</url>
           <line>70</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/graph/Graph.java</url>
           <line>115</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>25</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>24</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>34</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>11</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>42</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>33</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>27</line>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/Problem9.java</url>
           <line>77</line>
           <option name="timeStamp" value="143" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/EightQueens.java</url>
           <line>23</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/SubSort2.java</url>
           <line>44</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/SubSort.java</url>
           <line>14</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/SubSort2.java</url>
           <line>71</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/SubSort.java</url>
           <line>31</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/SubSort2.java</url>
           <line>52</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/PatternMatcher.java</url>
           <line>8</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/PatternMatcher.java</url>
           <line>9</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/PatternMatcher.java</url>
           <line>14</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem3.java</url>
           <line>54</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem3.java</url>
           <line>56</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem3.java</url>
           <line>55</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem3.java</url>
           <line>43</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem7.java</url>
           <line>65</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem7.java</url>
           <line>64</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem7.java</url>
           <line>72</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem7.java</url>
           <line>78</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/hard/Problem7.java</url>
           <line>67</line>
           <option name="timeStamp" value="173" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/RotateArray.java</url>
           <line>26</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/RotateArray.java</url>
           <line>7</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/ZeroMatrix.java</url>
           <line>58</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/ZeroMatrix.java</url>
           <line>64</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/ZeroMatrix.java</url>
           <line>65</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
           <line>95</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
           <line>51</line>
           <option name="timeStamp" value="205" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/linkedlist/Node.java</url>
           <line>69</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>44</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>47</line>
           <option name="timeStamp" value="213" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>48</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>69</line>
           <option name="timeStamp" value="217" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>21</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>11</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>67</line>
           <option name="timeStamp" value="220" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>68</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/Problem1.java</url>
           <line>35</line>
           <option name="timeStamp" value="227" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
           <line>43</line>
           <option name="timeStamp" value="228" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
           <line>17</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LinkedListPartition.java</url>
           <line>51</line>
           <option name="timeStamp" value="230" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
           <line>41</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
           <line>45</line>
           <option name="timeStamp" value="232" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
           <line>46</line>
           <option name="timeStamp" value="233" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
           <line>50</line>
           <option name="timeStamp" value="234" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter2/LLSum.java</url>
           <line>59</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>21</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>29</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/FixedMultiStack.java</url>
           <line>44</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/stacks/Stack.java</url>
           <line>61</line>
           <option name="timeStamp" value="256" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter3/phase2/ShortedStack.java</url>
           <line>11</line>
           <option name="timeStamp" value="259" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/MinimalBST.java</url>
           <line>39</line>
           <option name="timeStamp" value="261" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/trees/phase2/CreateBinaryTree.java</url>
           <line>30</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CheckedBalanceTree.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
           <line>9</line>
           <properties class="com.pravin.interview.ctci.chapter8.Problem6">
@@ -1255,7 +1272,7 @@
           </properties>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem5.java</url>
           <line>4</line>
           <properties class="com.pravin.interview.ctci.chapter8.Problem5" method="main">
@@ -1263,7 +1280,7 @@
           </properties>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/moderate/TrainlingZeroOfFactorial.java</url>
           <line>14</line>
           <properties class="com.pravin.interview.ctci.moderate.TrainlingZeroOfFactorial" method="main">
@@ -1271,7 +1288,7 @@
           </properties>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter1/StringRotation.java</url>
           <line>12</line>
           <properties class="com.pravin.interview.ctci.chapter1.StringRotation" method="main">

@@ -27,11 +27,38 @@ public class CheckedBalanceTree {
         return isBalanced(root.left) && isBalanced(root.right);
     }
 
+
+    int checkHeight(TreeNode root) {
+        if (root == null) {
+            return -1;
+        }
+
+        int leftHeight = checkHeight(root.left);
+        if (leftHeight == Integer.MIN_VALUE) {
+            return Integer.MIN_VALUE;
+        }
+
+        int rightHeight = checkHeight(root.right);
+        if (rightHeight == Integer.MIN_VALUE) {
+            return Integer.MIN_VALUE;
+        }
+        int diff = leftHeight - rightHeight;
+        if (Math.abs(diff) > 1) {
+            return Integer.MIN_VALUE;
+        }
+        return Math.max(leftHeight, rightHeight) + 1;
+    }
+
+    public boolean isBalanceOptimal(TreeNode root) {
+        return checkHeight(root) != Integer.MIN_VALUE;
+    }
+
     public static void main(String[] args) {
 
         CreateBinaryTree createBinaryTree = new CreateBinaryTree();
-        TreeNode treeNode = createBinaryTree.creatBinaryTree(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+        TreeNode treeNode = createBinaryTree.creatBinaryTree(new int[]{1, 2, 3, 4, 5, 6, 7});
         System.out.println(new CheckedBalanceTree().isBalanced(treeNode));
+        System.out.println(new CheckedBalanceTree().isBalanceOptimal(treeNode));
     }
 
 }
