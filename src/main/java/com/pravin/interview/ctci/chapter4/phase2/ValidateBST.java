@@ -43,7 +43,6 @@ public class ValidateBST {
     }
 
     boolean checkBST(TreeNode treeNode) {
-
         return checkBST(treeNode, null, null);
 
     }
