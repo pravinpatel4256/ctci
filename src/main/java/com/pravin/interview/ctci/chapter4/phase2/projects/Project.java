@@ -32,4 +32,7 @@ public class Project {
         return dependencies--;
     }
 
+    public List<Project> getChildren() {
+        return children;
+    }
 }
