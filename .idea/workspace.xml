@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/projects/ProjectGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/projects/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/projects/Project.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidateBST">
+  <component name="RunManager" selected="Application.CommonAncestor">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -136,13 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.trees.phase2.CreateBinaryTree" />
+    <configuration name="CommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter4.phase2.CommonAncestor" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.trees.phase2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter4.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter4.phase2.MinimalBST" />
+    <configuration name="CreateBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.trees.phase2.CreateBinaryTree" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.chapter4.phase2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.trees.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonAncestor" />
         <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.CheckedBalanceTree" />
         <item itemvalue="Application.TreeToLists" />
         <item itemvalue="Application.CreateBinaryTree" />
-        <item itemvalue="Application.MinimalBST" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +258,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
-      <workItem from="1592180079211" duration="69106000" />
+      <workItem from="1592180079211" duration="71724000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -478,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594270854342</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Tree and Graph">
+      <created>1594360089104</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594360089104</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -564,15 +570,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594071517127" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594270852696">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594360087544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594190758684" />
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594360087544" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594270852696" />
-    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594080613612">
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594361166997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594080613612" />
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594361166997" />
     <state x="184" y="67" key="DiffContextDialog" timestamp="1591730686858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -581,42 +587,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594099486279">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594362690594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486279" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594099486278">
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594362690594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486278" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594099486278">
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594362690594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486278" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594099486279">
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594362690594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099486279" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594099465569">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594362690595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594099465569">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690595" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594362690595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594099465569">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690595" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594362690594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594099465569">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594362690595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594099465569" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690595" />
     <state x="642" y="222" key="RollbackChangesDialog" timestamp="1592796227466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -647,10 +653,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="extract.method.dialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591937181735" />
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1594072959583">
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1594360803404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594072959583" />
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594360803404" />
     <state x="342" y="95" key="new project wizard" timestamp="1591341016352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -659,10 +665,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592283326006" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1594072971965">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1594360788400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594072971965" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594360788400" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1322,6 +1328,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/ValidateBST.java</url>
           <line>28</line>
           <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CommonAncestor.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CommonAncestor.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CommonAncestor.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/Problem6.java</url>
