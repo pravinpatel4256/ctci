@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter4/phase2/CommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ctci/chapter8/phase2/MagicNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
       <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommonAncestor">
+  <component name="RunManager" selected="Application.MagicNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -149,13 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.trees.phase2.CreateBinaryTree" />
+    <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.chapter8.phase2.MagicNumber" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ctci.trees.phase2.*" />
+          <option name="PATTERN" value="com.pravin.interview.ctci.chapter8.phase2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicNumber" />
         <item itemvalue="Application.CommonAncestor" />
         <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.CheckedBalanceTree" />
         <item itemvalue="Application.TreeToLists" />
-        <item itemvalue="Application.CreateBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1591340887928" duration="308000" />
       <workItem from="1591497073909" duration="17668000" />
       <workItem from="1591573829103" duration="47965000" />
-      <workItem from="1592180079211" duration="71724000" />
+      <workItem from="1592180079211" duration="76810000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -484,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594360089104</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Tree and Graph">
+      <created>1594362728363</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594362728363</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -570,10 +577,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594071517127" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594360087544">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1594362726695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594360087544" />
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362726695" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594270852696" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1594361166997">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -587,25 +594,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594362690594">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1595358605602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1595358605602" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594362690594">
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1595358605602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1595358605602" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594362690594">
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1595358605601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1595358605601" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594362690594">
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1595358605602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1594362690594" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1595358605602" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592194262150" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594362690595">
       <screen x="0" y="0" width="1920" height="1040" />
