@@ -13,6 +13,7 @@ public class SubSort {
 
         int endLeft = leftSortedPart(array);
         int startRight = rightSortedPart(array);
+        System.out.println(startRight);
 
         int midMinIndex = startRight;
         int midMaxIndex = endLeft;
@@ -84,6 +85,8 @@ public class SubSort {
         int[] array = {1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19};
          SubSort subSort = new SubSort();
         subSort.findUnsortedSequence2(array);
-    }
+       // Integer.signmum(1);
+        }
+
 
 }

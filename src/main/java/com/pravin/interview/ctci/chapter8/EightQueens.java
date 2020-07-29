@@ -14,25 +14,21 @@ public class EightQueens {
         Integer[] columns = new Integer[boardSize];
 
         placeQueensR(0, columns, result );
+
         System.out.println(result.size());
         return result;
     }
 
     private void placeQueensR(int r, Integer[] cs, ArrayList<Integer[]> result) {
-
         if (r == boardSize) {
             result.add(cs.clone());
         }
         for (int c = 0; c< boardSize; c++) {
-
             if (checkPlace(r, c, cs)) {
                 cs[r] = c;
-
                 placeQueensR(r+1, cs, result);
-
             }
         }
-
     }
 
     private boolean checkPlace(int r, int c, Integer[] cs) {

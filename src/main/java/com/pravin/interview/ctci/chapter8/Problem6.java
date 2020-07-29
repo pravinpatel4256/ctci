@@ -11,7 +11,7 @@ public class Problem6 {
         Tower[] towers = new Tower[3];
         IntStream.range(0, 3).forEach(i -> towers[i] = new Tower(i));
 
-        IntStream.range(n, 0).forEach(System.out::println);
+        IntStream.range(0, n).forEach(System.out::println);
         IntStream.range(0, n).map( i -> n - i - 1).forEach( disk -> towers[0].add(disk));
 
 

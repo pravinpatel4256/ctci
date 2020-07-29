@@ -1,5 +1,10 @@
 package com.pravin.interview.ctci.hard;
 
+import sun.text.normalizer.CharTrie;
+import sun.text.normalizer.Trie;
+
+import java.util.PriorityQueue;
+
 public class Problem7 {
     public static int count2sInRangeAtDigit(int number, int d) {
         int powerOf10 = (int) Math.pow(10, d);
@@ -82,11 +87,11 @@ public class Problem7 {
     }
 
     public static void main(String[] args) {
-//        for (int i = 0; i < 1000; i++) {
-//            int v1 = count2sR(i);
-//            int v2 = count2sInRange(i);
-//            System.out.println("Between 0 and " + i + ": " + v1 + " " + v2);
-//        }
+        for (int i = 0; i < 1000; i++) {
+            int v1 = count2sR(i);
+            int v2 = count2sInRange(i);
+            System.out.println("Between 0 and " + i + ": " + v1 + " " + v2);
+        }
 
         int v1 = count2sR(37);
       //  System.out.println(v1);
@@ -95,6 +100,8 @@ public class Problem7 {
 
         System.out.println("-----");
         System.out.println(v1);
+
+        PriorityQueue<Integer> heap  = new PriorityQueue<>(10, null);
     }
 
 }

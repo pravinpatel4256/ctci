@@ -9,6 +9,13 @@ public class DivingBoard {
     int count = 0;
     public HashSet<Integer> getAllLengths(int k , int shorter, int longer){
         HashSet<Integer> lengths = new HashSet<>();
+        getAllLengthsR(k, 0, shorter, longer, lengths);
+        System.out.println(count);
+        return lengths;
+    }
+
+    public HashSet<Integer> getAllLengthsMemo(int k , int shorter, int longer){
+        HashSet<Integer> lengths = new HashSet<>();
         HashSet<String> visited = new HashSet<>();
         getAllLengthsR(k, 0, shorter, longer, lengths, visited);
         System.out.println(count);
@@ -31,6 +38,17 @@ public class DivingBoard {
         getAllLengthsR(k-1, total + shorter, shorter, longer, lengths, visited);
         getAllLengthsR(k-1, total + longer, shorter, longer, lengths, visited);
         visited.add(key);
+    }
+
+    private void getAllLengthsR(int k, int total, int shorter, int longer, HashSet<Integer> lengths) {
+
+        if (k == 0) {
+            lengths.add(total);
+            return;
+        }
+        count++;
+        getAllLengthsR(k-1, total + shorter, shorter, longer, lengths);
+        getAllLengthsR(k-1, total + longer, shorter, longer, lengths);
     }
 
 }
