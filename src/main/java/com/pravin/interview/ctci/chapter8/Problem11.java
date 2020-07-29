@@ -4,7 +4,8 @@ public class Problem11 {
 
     public static void main(String[] args) {
 
-        Conis conis = new Conis();
-        System.out.println(conis.makeChanges(10));
+        Coins coins = new Coins();
+        System.out.println(coins.makeChanges(10));
+
     }
 }

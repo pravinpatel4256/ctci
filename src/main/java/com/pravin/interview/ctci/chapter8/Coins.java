@@ -1,6 +1,6 @@
 package com.pravin.interview.ctci.chapter8;
 
-public class Conis {
+public class Coins {
 
     public int makeChanges(int amount) {
         int[] demos = {25, 10, 5, 1};
