@@ -63,8 +63,12 @@ public class KthToLast {
         node.appendNodeToTail(60);
         node.appendNodeToTail(70);
         KthToLast obj = new KthToLast();
-        int size = obj.printKthToLast(node, 1);
+        System.out.println(node);
+       // int size = obj.printKthToLast(node, 1);
         Node kth = obj.kthFromLast(node, 2);
+        System.out.println(kth);
+
+        System.out.println(node);
         kth = obj.kthToLastItr(node, 2);
         System.out.println(kth);
 

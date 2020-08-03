@@ -18,6 +18,7 @@ public class GroupAnagrams {
         System.out.println(map);
 
         List<String>  strings = new ArrayList<>();
+
         int[] tmp = new int[1];
         map.keySet().forEach(key -> map.get(key).forEach(v -> { arr[tmp[0] ] = v; tmp[0]++; }));
 

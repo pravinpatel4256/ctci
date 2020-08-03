@@ -62,15 +62,16 @@ public class LLSum {
 
 
     public static void main(String[] args) {
-        Node n1 = new Node(1);
-        n1.appendNodeToTail(2);
-        n1.appendNodeToTail(3);
-        n1.appendNodeToTail(4);
+        Node n1 = new Node(7);
+        n1.appendNodeToTail(1);
+        n1.appendNodeToTail(6);
 
-        Node n2 = new Node(1);
-        n2.appendNodeToTail(1);
+        Node n2 = new Node(5);
+        n2.appendNodeToTail(9);
+        n2.appendNodeToTail(2);
          LLSum llSum = new LLSum();
-        Node sum = llSum.addForwardLL(n1, n2);
+        Node sum = llSum.addLL(n1, n2);
+        Node sumR = llSum.addForwardLL(n1, n2);
 
         System.out.println(sum);
 

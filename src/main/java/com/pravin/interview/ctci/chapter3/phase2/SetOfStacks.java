@@ -80,7 +80,7 @@ public class SetOfStacks {
         setOfStacks.push(8);
         System.out.println(setOfStacks);
 
-        System.out.println(setOfStacks.popAt(1));
+        System.out.println(setOfStacks.popAt(0));
 
         System.out.println(setOfStacks);
 
