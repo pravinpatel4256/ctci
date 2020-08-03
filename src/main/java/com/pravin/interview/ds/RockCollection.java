@@ -1,22 +1,18 @@
 package com.pravin.interview.ds;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
 class RockCollection {
 
-    public int getPath(int[][] roads) {
+    public int makRockPath(int[][] roads) {
         if (roads == null || roads.length == 0) return 0;
         int[][] memo = new int[roads.length][roads[0].length];
 
-        int result = getPath(roads, roads.length - 1, 0, memo);
+        int result = makRockPath(roads, roads.length - 1, 0, memo);
         return result;
     }
 
-    public int getPath(int[][] roads, int row, int col, int[][] memo) {
+    public int makRockPath(int[][] roads, int row, int col, int[][] memo) {
 
-        List<Point> points1 = new ArrayList<>();
         if (col < 0 || row < 0 || col > roads[0].length - 1) {
             return 0;
         }
@@ -24,8 +20,8 @@ class RockCollection {
             return memo[row][col];
         }
         int val = roads[row][col];
-        int withRow = val + getPath(roads, row - 1, col, memo);
-        int withColumn = val + getPath(roads, row, col + 1, memo);
+        int withRow = val + makRockPath(roads, row - 1, col, memo);
+        int withColumn = val + makRockPath(roads, row, col + 1, memo);
         memo[row][col] = Math.max(withColumn, withRow);
 
         return memo[row][col];
@@ -39,7 +35,7 @@ class RockCollection {
                 {9, 0, 0, 0, 0}
         };
 
-        int result = new RockCollection().getPath(arr);
+        int result = new RockCollection().makRockPath(arr);
         System.out.println(result);
     }
 }
