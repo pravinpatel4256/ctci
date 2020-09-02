@@ -1,5 +1,8 @@
 package com.pravin.interview.leetcode;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class ListNode {
     public int val;
     public ListNode next;
@@ -22,5 +25,10 @@ public class ListNode {
                 "val=" + val +
                 ", next=" + next +
                 '}';
+    }
+
+    public static void main(String[] args) {
+        List<String> list = new LinkedList<>();
+        
     }
 }
