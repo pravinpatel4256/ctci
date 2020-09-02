@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/QuickSort.java" afterDir="false" />
+    <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="RockCollection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -149,6 +150,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ik.MergeSort" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ctci.sorts.QuickSort" />
+      <module name="creaking-the-coding-interview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pravin.interview.ctci.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ik.QuickSort" />
       <module name="creaking-the-coding-interview" />
@@ -156,34 +185,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pravin.interview.ik.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ik.TwoSum" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ik.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.leetcode.WordOccurrence" />
-      <module name="creaking-the-coding-interview" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pravin.interview.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort (1)" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MedianInStream" />
         <item itemvalue="Application.KthLargest" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.WordOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +270,7 @@
       <workItem from="1597683894289" duration="3929000" />
       <workItem from="1597792963939" duration="599000" />
       <workItem from="1598508767566" duration="1014000" />
-      <workItem from="1598807719858" duration="12775000" />
+      <workItem from="1598807719858" duration="15863000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -635,10 +636,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="230" key="#xdebugger.evaluate/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1595998769448" />
-    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1596477055227">
+    <state x="506" y="88" key="CommitChangelistDialog2" timestamp="1599024669990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1596003486583" />
+    <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024669990" />
     <state x="506" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596477055227" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1597107900753">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -653,32 +654,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1599024599217">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1599029402951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735480" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599029402951" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1599024599217">
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1599029402951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735479" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599029402951" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1599024599217">
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1599029402950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735479" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599029402950" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1599024599217">
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1599029402951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735480" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599029402951" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
     <state width="1877" height="319" key="GridCell.Tab.1.bottom" timestamp="1597161714282">
@@ -735,10 +736,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="extract.method.dialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1591937181735" />
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1597647154592">
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1599025331003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1597647154592" />
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599025331003" />
     <state x="342" y="95" key="new project wizard" timestamp="1591341016352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -3,7 +3,7 @@ package com.pravin.interview.ik;
 public class QuickSort {
 
 
-    public void sort(int[] ar){
+    public void sortInPlace(int[] ar){
         helper(ar, 0, ar.length -1);
     }
 
@@ -37,7 +37,7 @@ public class QuickSort {
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
         int[] ar = new int[]{4, 2, 9,0,8,1,3,2,2,8,0,3,2,9,8,11,0};
-        quickSort.sort(ar);
+        quickSort.sortInPlace(ar);
         for (int a : ar) {
             System.out.print(a);
             System.out.print(", ");
