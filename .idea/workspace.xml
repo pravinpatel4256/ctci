@@ -26,17 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da19499b-6ec7-460a-b062-bd54c1cfda2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ds/RunningMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ds/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/IntersectionOfSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/KthLargestInStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/MedianInStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/leetcode/CriticalConnections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/leetcode/WordOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/ik/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pravin/interview/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pravin/interview/leetcode/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +114,7 @@
       <recent name="com.pravin.interview.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MedianInStream">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -158,13 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ds.RunningMedian" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pravin.interview.ik.QuickSort" />
       <module name="creaking-the-coding-interview" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pravin.interview.ds.*" />
+          <option name="PATTERN" value="com.pravin.interview.ik.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MedianInStream" />
         <item itemvalue="Application.KthLargest" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.WordOccurrence" />
-        <item itemvalue="Application.RunningMedian" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +269,7 @@
       <workItem from="1597683894289" duration="3929000" />
       <workItem from="1597792963939" duration="599000" />
       <workItem from="1598508767566" duration="1014000" />
-      <workItem from="1598807719858" duration="11437000" />
+      <workItem from="1598807719858" duration="12775000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new changes!!">
       <created>1554604386359</created>
@@ -662,32 +653,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1592285754032" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1598820735480">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1599024599217">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735480" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598509187611" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
     <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1598820735479">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1599024599217">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735479" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598509187610" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
     <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1598820735479">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1599024599217">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735479" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598509187610" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
     <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1598820735480">
-      <screen x="-1920" y="4" width="1920" height="1040" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1599024599217">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1598820735480" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1598509187611" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1599024599217" />
     <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1080@0.0.1920.1040" timestamp="1595902702821" />
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596476964786" />
     <state width="1877" height="319" key="GridCell.Tab.1.bottom" timestamp="1597161714282">
